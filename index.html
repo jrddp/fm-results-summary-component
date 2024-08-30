@@ -16,9 +16,9 @@
     />
   </head>
 
-  <body class="flex flex-col items-center justify-center min-h-dvh">
-    <main class="flex max-w-xl shadow-lg rounded-2xl">
-      <div class="flex flex-col items-center w-1/2 gap-6 p-8 py-10 text-center text-white bg-gradient-to-b bg-gradient from-light-slate-blue to-light-royal-blue rounded-2xl">
+  <body class="relative flex flex-col items-center justify-center pb-8 min-h-dvh h-fit">
+    <main class="flex flex-col max-w-xl sm:shadow-xl sm:flex-row rounded-2xl sm:shadow-light-lavender/50">
+      <div class="flex flex-col items-center gap-4 p-8 text-center text-white rounded-t-none sm:gap-6 sm:py-10 sm:w-1/2 bg-gradient-to-b bg-gradient from-light-slate-blue to-light-royal-blue sm:rounded-t-2xl rounded-b-2xl">
         <div class="text-light-lavender">
           Your Result
         </div>
@@ -37,8 +37,8 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col items-center justify-between w-1/2 p-8">
-        <div class="w-full text-xl font-bold text-left">
+      <div class="flex flex-col items-center gap-5 px-6 py-4 jsutify-between sm:p-8 sm:w-1/2">
+        <div class="w-full font-bold text-left sm:text-xl">
           Summary
         </div>
         <div class="flex flex-col w-full gap-3">
@@ -80,7 +80,7 @@
       </div>
     </main>
 
-    <div class="absolute flex gap-1 bottom-4">
+    <div class="absolute flex gap-1 text-xs text-center sm:text-base bottom-4 sm:flex-row">
       <div>
         Challenge by
         <a class="hover:underline text-violet-blue" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
